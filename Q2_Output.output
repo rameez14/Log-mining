@@ -1,0 +1,116 @@
+Conda uses environments to load different sets of Python packages
+type conda env list to see the environments availible.
+2020-03-10 21:17:18 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-03-10 21:17:30 INFO  SparkContext:54 - Running Spark version 2.3.2
+2020-03-10 21:17:30 INFO  SparkContext:54 - Submitted application: Q2 A
+2020-03-10 21:17:30 INFO  SecurityManager:54 - Changing view acls to: acp18rkh
+2020-03-10 21:17:30 INFO  SecurityManager:54 - Changing modify acls to: acp18rkh
+2020-03-10 21:17:30 INFO  SecurityManager:54 - Changing view acls groups to: 
+2020-03-10 21:17:30 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2020-03-10 21:17:30 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(acp18rkh); groups with view permissions: Set(); users  with modify permissions: Set(acp18rkh); groups with modify permissions: Set()
+2020-03-10 21:17:32 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 37698.
+2020-03-10 21:17:32 INFO  SparkEnv:54 - Registering MapOutputTracker
+2020-03-10 21:17:32 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2020-03-10 21:17:32 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2020-03-10 21:17:32 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2020-03-10 21:17:32 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-35cecabb-82b8-4049-b81a-5031be0957c3
+2020-03-10 21:17:32 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2020-03-10 21:17:32 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2020-03-10 21:17:32 INFO  log:192 - Logging initialized @23326ms
+2020-03-10 21:17:32 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2020-03-10 21:17:33 INFO  Server:419 - Started @23452ms
+2020-03-10 21:17:33 INFO  AbstractConnector:278 - Started ServerConnector@24d45886{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2020-03-10 21:17:33 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1cf2b80d{/jobs,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1c4d1fb8{/jobs/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@33084414{/jobs/job,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@66797cad{/jobs/job/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@12bd1f05{/stages,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@63e4d1a2{/stages/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d5048b6{/stages/stage,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5ff20ca3{/stages/stage/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1028ea13{/stages/pool,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7eea3552{/stages/pool/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@11e7a76b{/storage,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5ebf36e0{/storage/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@9103756{/storage/rdd,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@267fc383{/storage/rdd/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@a0ff4d8{/environment,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2da0cb4f{/environment/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2502f32a{/executors,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d395fd2{/executors/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@8e5dd99{/executors/threadDump,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@23b48579{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@119db986{/static,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3a26e35c{/,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f7054b9{/api,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@35b8d9f8{/jobs/job/kill,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@583599de{/stages/stage/kill,null,AVAILABLE,@Spark}
+2020-03-10 21:17:33 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://sharc-node031.shef.ac.uk:4040
+2020-03-10 21:17:33 INFO  SparkContext:54 - Added file file:/home/acp18rkh/ScalableML-master/ScalableML-master/Code/Q2_Code.py at file:/home/acp18rkh/ScalableML-master/ScalableML-master/Code/Q2_Code.py with timestamp 1583875053809
+2020-03-10 21:17:33 INFO  Utils:54 - Copying /home/acp18rkh/ScalableML-master/ScalableML-master/Code/Q2_Code.py to /tmp/spark-65bcab2f-0b6a-4541-90b9-cce12e6abb37/userFiles-2fcb6eea-ce6f-4dcb-a6c3-b136d41849d7/Q2_Code.py
+2020-03-10 21:17:34 INFO  Executor:54 - Starting executor ID driver on host localhost
+2020-03-10 21:17:34 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 39925.
+2020-03-10 21:17:34 INFO  NettyBlockTransferService:54 - Server created on sharc-node031.shef.ac.uk:39925
+2020-03-10 21:17:34 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2020-03-10 21:17:34 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, sharc-node031.shef.ac.uk, 39925, None)
+2020-03-10 21:17:34 INFO  BlockManagerMasterEndpoint:54 - Registering block manager sharc-node031.shef.ac.uk:39925 with 366.3 MB RAM, BlockManagerId(driver, sharc-node031.shef.ac.uk, 39925, None)
+2020-03-10 21:17:34 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, sharc-node031.shef.ac.uk, 39925, None)
+2020-03-10 21:17:34 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, sharc-node031.shef.ac.uk, 39925, None)
+2020-03-10 21:17:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@13ede3f9{/metrics/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:35 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/acp18rkh/ScalableML-master/ScalableML-master/spark-warehouse/').
+2020-03-10 21:17:35 INFO  SharedState:54 - Warehouse path is 'file:/home/acp18rkh/ScalableML-master/ScalableML-master/spark-warehouse/'.
+2020-03-10 21:17:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3410a922{/SQL,null,AVAILABLE,@Spark}
+2020-03-10 21:17:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@47dcc67b{/SQL/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@74f6ecc2{/SQL/execution,null,AVAILABLE,@Spark}
+2020-03-10 21:17:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7f9c09dd{/SQL/execution/json,null,AVAILABLE,@Spark}
+2020-03-10 21:17:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@76c2b4c3{/static/sql,null,AVAILABLE,@Spark}
+2020-03-10 21:17:37 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+2020-03-10 21:19:26 WARN  MemoryStore:66 - Not enough space to cache rdd_11_2 in memory! (computed 36.4 MB so far)
+2020-03-10 21:19:59 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-03-10 21:19:59 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2020-03-10 21:20:01 WARN  LAPACK:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-03-10 21:20:01 WARN  LAPACK:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+2020-03-10 21:21:00 WARN  MemoryStore:66 - Not enough space to cache rdd_11_3 in memory! (computed 56.0 MB so far)
+ Model 1: Root-mean-square error = 0.8067635270095144
+Model 1: Mean-absolute-error = 0.6235658345884876
+ Model 2: Root-mean-square error = 0.8132929967688093
+Model 2: Mean-absolute-error = 0.6298471796741532
+2020-03-10 21:24:20 WARN  MemoryStore:66 - Not enough space to cache rdd_11_3 in memory! (computed 56.0 MB so far)
+2020-03-10 21:25:12 WARN  MemoryStore:66 - Not enough space to cache rdd_11_3 in memory! (computed 56.0 MB so far)
+ Model 3: Root-mean-square error = 3.4901884887769636
+Model 3: Mean-absolute-error = 3.3075820900723443
+2020-03-10 21:26:14 WARN  MemoryStore:66 - Not enough space to cache rdd_11_3 in memory! (computed 56.0 MB so far)
+2020-03-10 21:26:18 WARN  MemoryStore:66 - Not enough space to cache rdd_11_0 in memory! (computed 56.1 MB so far)
+2020-03-10 21:26:27 WARN  MemoryStore:66 - Not enough space to cache rdd_11_4 in memory! (computed 23.7 MB so far)
+ Model 1: Root-mean-square error = 0.8069389744830621
+Model 1: Mean-absolute-error = 0.6238901582003696
+ Model 2: Root-mean-square error = 0.8142679112978647
+Model 2: Mean-absolute-error = 0.6309127938752682
+2020-03-10 21:31:15 WARN  MemoryStore:66 - Not enough space to cache rdd_11_2 in memory! (computed 15.0 MB so far)
+2020-03-10 21:32:00 WARN  MemoryStore:66 - Not enough space to cache rdd_11_3 in memory! (computed 56.0 MB so far)
+ Model 3: Root-mean-square error = 3.4824660357644843
+Model 3: Mean-absolute-error = 3.299126961944328
+2020-03-10 21:33:11 WARN  MemoryStore:66 - Not enough space to cache rdd_11_2 in memory! (computed 56.0 MB so far)
+ Model 1: Root-mean-square error = 0.806999846907764
+Model 1: Mean-absolute-error = 0.6239931449028059
+2020-03-10 21:35:32 WARN  MemoryStore:66 - Not enough space to cache rdd_11_1 in memory! (computed 56.0 MB so far)
+2020-03-10 21:35:40 WARN  MemoryStore:66 - Not enough space to cache rdd_11_3 in memory! (computed 56.0 MB so far)
+ Model 2: Root-mean-square error = 0.8141497680472022
+Model 2: Mean-absolute-error = 0.6309332190660907
+2020-03-10 21:38:05 WARN  MemoryStore:66 - Not enough space to cache rdd_11_2 in memory! (computed 56.0 MB so far)
+2020-03-10 21:38:09 WARN  MemoryStore:66 - Not enough space to cache rdd_11_4 in memory! (computed 56.1 MB so far)
+ Model 3: Root-mean-square error = 3.4791602266292454
+Model 3: Mean-absolute-error = 3.2961541187345222
+Model 1 : Mean for Root mean squared error =  0.8069007828001135
+Model 1 : Mean for Mean absolute error =  0.6238163792305543
+Model 1: Standard deviation for Root-mean-squared error =  0.00010018558466505403
+Model 1: Standard deviation for Mean absolute error =  0.00018208245105071628
+Model 2 : Mean for Root mean squared error =  0.8139035587046254
+Model 2 : Mean for Mean absolute error =  0.630564397538504
+Model 2: Standard deviation for Root-mean-squared error =  0.0004344182815520116
+Model 2: Standard deviation for Mean absolute error =  0.0005072181620125216
+Model 3 : Mean for Root mean squared error =  3.4839382503902314
+Model 3 : Mean for Mean absolute error =  3.300954390250398
+Model 3: Standard deviation for Root-mean-squared error =  0.004621053518257195
+Model 3: Standard deviation for Mean absolute error =  0.004841091673365308
